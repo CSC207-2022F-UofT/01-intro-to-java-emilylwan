@@ -147,7 +147,7 @@ public class Basics {
 
         String [] string_split = to_split.split(" ");
         for (int i = 0; i < 7; i++) {
-            ret.append(string_split[0].charAt(0));
+            ret.append(string_split[i].charAt(0));
         }
 
         return ret.toString();
